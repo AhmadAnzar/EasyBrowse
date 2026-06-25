@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-950: #000000;
+  --color-dark-900: #0d0d0d;
+  --color-dark-800: #1a1a1a;
+  --color-dark-700: #262626;
+  --color-dark-600: #404040;
+  
+  --color-brand-500: #ffffff;
+  --color-brand-600: #ffffff;
+  --color-brand-700: #ffffff;
+
+  /* Map Indigo to Gothic whites and greys */
+  --color-indigo-300: #e5e5e5;
+  --color-indigo-400: #ffffff;
+  --color-indigo-500: #ffffff;
+  --color-indigo-600: #ffffff;
+  --color-indigo-700: #f5f5f5;
+  --color-indigo-800: #d4d4d4;
+  --color-indigo-900: #a3a3a3;
+}
+
+@utility glass {
+  background: rgba(13, 13, 13, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body {
+  @apply bg-black text-neutral-100 font-sans antialiased overflow-x-hidden;
+}
+
+/* Premium Scrollbar Styling - Gothic Neutral */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+/* Gothic white highlighting upon hovering */
+button, input, textarea, select, a, .glass, [role="button"] {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Highlight elements on hover with white border and subtle glow */
+button:hover, input:hover, textarea:hover, select:hover {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Overwrite shadow classes to match gothic style */
+.shadow-lg, .shadow-xl, .shadow-2xl {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Custom white highlighting for active inputs */
+input:focus, textarea:focus {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.25) !important;
+}

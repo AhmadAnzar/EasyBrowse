@@ -1,0 +1,37 @@
+# Virtual environments
+backend/.venv/
+.venv/
+venv/
+ENV/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node dependencies
+frontend/node_modules/
+node_modules/
+
+# Frontend builds
+frontend/dist/
+dist/
+
+# Visual Timeline Screenshots
+backend/screenshots/
+*.jpg
+*.png
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
