@@ -35,3 +35,7 @@ backend/screenshots/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Viva Guide
+viva_guide.md
+VIVA_GUIDE.md
