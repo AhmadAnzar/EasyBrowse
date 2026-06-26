@@ -2,7 +2,7 @@
 
 EasyBrowse is an intelligent, autonomous website automation agent powered by Playwright and Llama 3.3. It takes natural language goals, plans its browser actions dynamically, and executes them step-by-step, providing real-time feedback through an interactive dashboard UI or terminal CLI.
 
-## 🚀 Features
+##  Features
 
 - **Autonomous Agent Loop**: Observe -> Extract interactive DOM -> Plan -> Execute -> Verify -> Capture Screenshot.
 - **Core Browser Actions**: Supports `navigate_to_url`, `click`, `click_on_screen`, `send_keys`, `scroll`, `double_click`, and `take_screenshot`.
@@ -12,7 +12,7 @@ EasyBrowse is an intelligent, autonomous website automation agent powered by Pla
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -66,7 +66,7 @@ EasyBrowse is an intelligent, autonomous website automation agent powered by Pla
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Interactive Web Dashboard
 1. Select one of the **Quick Presets** (e.g., "Shadcn Form Submission" to auto-fill the Name and Description fields) or enter your own custom goal.
